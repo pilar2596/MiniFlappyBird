@@ -24,6 +24,11 @@ public class VentanaJuego extends javax.swing.JFrame {
 
     static int ANCHOPANTALLA = 800;
     static int ALTOPANTALLA = 750;
+    static int SEPARACION_COLUMNAS = 150;
+    
+    Columna miColumna1 = new Columna (ANCHOPANTALLA);
+    Columna miColumna2 = new Columna (ANCHOPANTALLA + SEPARACION_COLUMNAS);
+    
     
     BufferedImage buffer = null;
     Graphics2D bufferGraphics, lienzoGraphics = null;
